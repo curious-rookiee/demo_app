@@ -4,7 +4,7 @@ import numpy as np
 
 # Load the trained model
 try:
-    model = tf.keras.models.load_model("ann_model.h5")
+    model = tf.keras.models.load_model("new_model.h5")
 except Exception as e:
     st.error(f"Error loading model: {e}")
 
